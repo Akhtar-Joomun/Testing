@@ -2,10 +2,6 @@ const ham = document.querySelector('.ham');
 const header2 = document.querySelector('.header2');
 const mob = document.querySelector('.mob');
 
-function display() {
-  header2.style.display
-}
-
 function clickFunction() {
   const para = document.getElementById('toggle-icon');
   para.classList.toggle('rotate-icon');
@@ -18,6 +14,4 @@ function clickFunction() {
   }
 }
 
-
 ham.addEventListener('click', clickFunction);
-
