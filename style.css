@@ -24,6 +24,15 @@
   margin-top: 18vh;
 }
 
+.pink-section-about {
+  width: 100%;
+  background-color: #d3d3d3;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 18vh;
+}
+
 body {
   margin: 0;
   background-color: white;
@@ -108,7 +117,9 @@ a {
 
 .header2-content-mob {
   font-size: 1.5rem;
-  margin-left: 5rem;
+  margin-left: 8rem;
+  margin-bottom: 0;
+  margin-top: 2%;
   color: #272a31;
   transition: transform 0.3s;
 }
@@ -147,11 +158,6 @@ img {
   margin-left: 7%;
 }
 
-.banner-desk {
-  position: relative;
-  height: auto;
-}
-
 .bg-img {
   opacity: 40%;
   position: absolute;
@@ -161,7 +167,7 @@ img {
   margin: 10px;
   font-size: 22px;
   color: #ec5242;
-  font-family: Cocogoose, sans-serif;
+  font-family: Lato;
   margin-left: 4%;
   font-weight: bold;
 }
@@ -174,9 +180,9 @@ img {
   width: 80%;
   margin-left: 4%;
   margin-right: auto;
-  border: #ec5242;
+  border: #fffefd;
   border-style: solid;
-  border-width: 1px;
+  border-width: 2px;
   font-size: 16px;
   color: black;
   padding: 0.5rem;
@@ -200,6 +206,7 @@ h1 {
 }
 
 .main-benefits {
+  margin-top: 12%;
   background-image: url("images/benefit-bg.png");
 }
 
@@ -268,6 +275,22 @@ ul {
   text-align: center;
   font-weight: 900;
   color: #272a31;
+}
+
+.see-benefits {
+  display: none;
+}
+
+.book-now {
+  width: 70%;
+  height: 15vh;
+  background-color: #ec5242;
+  margin: auto auto 15% auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: larger;
 }
 
 .customers {
@@ -364,10 +387,11 @@ button {
 
 .footer-container,
 .footer-container-about {
-  background-color: #2e2e2e;
-  color: white;
+  background-color: white;
+  color: black;
   font-weight: 400;
   display: flex;
+  height: 110vh;
 }
 
 .customers-bar {
@@ -378,6 +402,7 @@ button {
   width: 70%;
   margin: auto;
   border: 1px dashed #272a31;
+  margin-top: 15%;
 }
 
 footer {
@@ -397,7 +422,7 @@ footer {
 
 .footer-content p {
   text-align: left;
-  margin-top: 30%;
+  margin-top: 10%;
 }
 
 .center {
@@ -581,6 +606,17 @@ footer {
   .pink-section {
     padding-top: 6.5%;
     margin-top: 0;
+    background-image: url("images/spa2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .pink-section-about {
+    padding-top: 6.5%;
+    margin-top: 0;
+    background-image: url("images/spa.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
   }
 
   .header1 {
@@ -609,18 +645,14 @@ footer {
     height: 62px;
   }
 
-  .banner-desk {
-    height: 35vh;
-    background-color: #4b4f56;
-    margin-top: 0;
-  }
-
   .home-text-container {
     height: 55%;
   }
 
   .short-description {
-    width: 40%;
+    width: 30%;
+    margin-top: 2%;
+    font-size: 0.8rem;
   }
 
   .perfect-solution,
@@ -628,11 +660,26 @@ footer {
   .short-description,
   .before-title,
   .main-title {
-    margin-left: 10%;
+    margin-left: 15%;
+  }
+
+  .before-title {
+    margin-top: 6%;
+    margin-bottom: 0;
+    font-size: 2rem;
+  }
+
+  .main-title {
+    font-size: 3rem;
+    width: 50%;
+    margin-top: 1rem;
+    margin-bottom: 0%;
+    line-height: 95%;
   }
 
   .perfect-solution {
     margin-top: 2%;
+    font-size: 2rem;
   }
 
   .marg {
@@ -655,6 +702,18 @@ footer {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .see-benefits {
+    margin: 0 auto 5% 43.5%;
+    width: 20%;
+    height: 10%;
+    color: white;
+    text-decoration: underline;
+  }
+
+  .book-now {
+    display: none;
   }
 
   .serv {
@@ -687,16 +746,19 @@ footer {
 
   .footer-img {
     margin-right: 20%;
+    margin-top: 0;
   }
 
   .footer-container {
     background-color: white;
     color: black;
+    height: 55vh;
   }
 
   .footer-container-about {
     background-color: #2e2e2e;
     color: white;
+    height: 55vh;
   }
 
   .footer-content {
