@@ -3,7 +3,7 @@ This is a capstone project. It is about a mobile beauty and spa services for wom
 
 ![screenshot](./screenshot.png)
 
-[Live Demo](https://akhtar-joomun.github.io/beauty-therapist/)
+[Live Demo](https://akhtar-joomun.github.io/therapist/)
 
 [Documentation](https://www.loom.com/share/480fb89af5b0497d871cb2f8d53faca5)
 
@@ -15,9 +15,9 @@ This is a capstone project. It is about a mobile beauty and spa services for wom
 ## Getting Started
 To get a local copy up and running follow these simple example steps.
 
-- Clone this repository with: git clone `https://github.com/Akhtar-Joomun/beauty-therapist.git` using your terminal or command line.
+- Clone this repository with: git clone `https://github.com/Akhtar-Joomun/therapist.git` using your terminal or command line.
 - Change to the project directory by entering : <br>
-  `cd beauty-therapist` in the terminal .
+  `cd Testing` in the terminal .
 
 ### Setup
 Make sure the files are in the same folder.
