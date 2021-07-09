@@ -5,7 +5,7 @@ This is a capstone project. It is about a mobile beauty and spa services for wom
 
 [Live Demo](https://akhtar-joomun.github.io/therapist/)
 
-[Documentation](https://www.loom.com/share/480fb89af5b0497d871cb2f8d53faca5)
+[Video Presentation](https://www.loom.com/share/480fb89af5b0497d871cb2f8d53faca5)
 
 ## Built With
 - HTML
