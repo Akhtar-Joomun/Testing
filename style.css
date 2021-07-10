@@ -608,7 +608,7 @@ footer {
     margin-top: 0;
     background-image: url("images/spa2.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
   }
 
   .pink-section-about {
@@ -616,7 +616,7 @@ footer {
     margin-top: 0;
     background-image: url("images/spa.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
   }
 
   .header1 {
@@ -853,4 +853,14 @@ footer {
   .none {
     display: none;
   }
+}
+
+@media screen and (min-width: 1080px) {
+  .pink-section {
+    background-size: 100%;
+  }
+
+  .pink-section-about {
+    background-size: 100%;
+  } 
 }
